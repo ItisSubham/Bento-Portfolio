@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+# 🧃 Bento Portfolio
+![Preview](./subham-paul-portfolio.vercel.app_.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and minimal **Bento-style personal portfolio** built using **React** and **Framer Motion**. This project showcases your personal branding, skills, and contact links in a beautiful animated grid layout inspired by the Bento UI aesthetic.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Live](https://subham-paul-portfolio.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ✨ Features
 
-- Configure the top-level `parserOptions` property like this:
+- 🟪 Bento grid layout with soft UI
+- 🎬 Smooth animations with Framer Motion
+- 🧑‍💼 Clean personal sections: About, Socials, Contact
+- 🎨 Responsive design for mobile and desktop
+- ⚡ Lightweight and fast
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- [React](https://reactjs.org/) – Frontend library
+- [Framer Motion](https://www.framer.com/motion/) – Animations
+- [Vite](https://vitejs.dev/) – Fast development environment
+- [CSS / Tailwind](https://tailwindcss.com/) – Utility-first CSS
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## 🚀 Getting Started
+
+Make sure that you have installed
+- 🟢 Node.js
+- 🐙 Git
+- 📦 npm, yarn, pnpm, or bun
+
+1. 📂 Clone the Repository
+
+   ```bash
+   git clone https://github.com/ItisSubham/Bento_Portfolio
+   cd Bento_Portfolio
+   ```
+2. 📥 Install Dependencies
+
+   ```bash
+   npm install
+   ```
+3. ▶ Run the Development Server
+
+   ```bash
+   npm run dev
+   ```
+4. 🌐 View the Website
+- Open your browser and navigate to http://localhost:3000 to see the website in action.
+
+---
+
+Let me know if you'd like to include a "dark/light mode" toggle or a section for project and tools as cards.
