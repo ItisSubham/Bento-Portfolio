@@ -24,7 +24,7 @@ A clean and minimal **Bento-style personal portfolio** built using **React** and
 - [React](https://reactjs.org/) – Frontend library
 - [Framer Motion](https://www.framer.com/motion/) – Animations
 - [Vite](https://vitejs.dev/) – Fast development environment
-- [CSS / Tailwind](https://tailwindcss.com/) – Utility-first CSS
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
 
 ---
 
